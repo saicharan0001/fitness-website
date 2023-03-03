@@ -1,0 +1,319 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 25px;
+}
+
+.logo {
+    font-size: xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 78, 78);
+    font-weight: 100;
+}
+
+a:hover {
+    color: black;
+}
+
+.club {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 8vw;
+}
+
+
+.club .textholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clubtext {
+    font-size: 25px;
+    margin: 1vw 1vw;
+}
+
+.club h1 {
+    margin-top: 1vw;
+    font-weight: 600;
+}
+
+.club img {
+    width: 40vw;
+}
+
+.club .textholder {
+    width: 40vw;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vw 7vw;
+}
+
+.box {
+    margin-bottom: 4vh;
+    border: 2px solid gainsboro;
+    border-radius: 4px;
+    width: 25vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* transition: width 0.3s, height 0.3s; */
+    /* height:30vh; */
+}
+
+.box:hover {
+    box-shadow: 0 0 2px 1px rgba(226, 231, 232, 0.5);
+}
+
+.pic {
+    text-align: center;
+}
+
+
+.container-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container-box-pic-text {
+    margin: 1vh 4vw;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.crossfit {
+    margin-top: 5vw;
+}
+
+.crossfit header {
+    font-size: larger;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.container a {
+    color: rgb(216, 99, 57);
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: orangered;
+}
+
+
+.login {
+    font-size: 1.5vw;
+    position: absolute;
+    background-color: rgba(250, 253, 255, 0.61);
+    top: 35%;
+    left: 10%;
+    width: 40vw;
+    height: fit-content;
+    color: rgb(50, 48, 48);
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 50;
+}
+
+.header {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.details {
+    margin: 2vw 3vw;
+}
+
+.input {
+    color: black;
+    font-size: 1.5vw;
+    width: 90%;
+    height:4vh;
+    background: transparent;
+    border: none;
+
+}
+
+.login .btn {
+    background-color: rgb(71, 71, 234);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 5vw;
+    height: 2.5vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    margin-bottom:2vh;
+}
+
+
+
+footer {
+    /* height: 15vh; */
+    color: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-content: center; */
+    background-color: #172337;
+}
+
+footer .copyright {
+    padding-top: 1vw;
+    text-align: center;
+}
+
+footer a,
+footer a:hover,
+footer a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+}
+
+footer .note {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+@media screen and (max-width:533px) {
+    header nav ul li {
+        margin: 25px 15px;
+    }
+}
+
+@media screen and (max-width:434px) {
+    header nav ul li {
+        margin: 25px 10px;
+    }
+}
+
+@media screen and (max-width:382px) {
+    header nav ul li {
+        margin: 25px 5px;
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    .club {
+        margin: 10vw 10vw;
+    }
+
+    .club img {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .club .textholder {
+        width: 70vw;
+    }
+
+    .club .textholder {
+        margin-top: 5vw;
+    }
+}
+
+@media screen and (max-width:1148px) {
+    .clubtext {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .box {
+        width: 40vw;
+    }
+
+    .container {
+        margin: 6vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .box {
+        width: 80vw;
+    }
+
+    .container {
+        margin: 7vw;
+    }
+}
+
+@media screen and (max-width:900px){
+    .login{
+        /* width:50vw; */
+        width: 300px;
+        font-size: 15px;
+        left:5%
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .input{
+        width: 90%;
+        font-size: 100%;
+    }
+    .login .btn{
+        width:10vh;
+        height: 5vh;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px){
+    .login{
+        top:25%;
+    }
+}
+@media screen and (max-width:500px){
+    .login{
+        /* width:50vw; */
+        width: 250px;
+        font-size: 12px;
+        left:5%;
+        top:30%;
+    }
+    .input{
+        height:3vh;
+    }
+}
