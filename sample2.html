@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .club {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 8vw;
+        }
+
+
+        .club .textholder {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .clubtext {
+            font-size: 20px;
+            margin: 1vw 1vw;
+        }
+
+        .club h1 {
+            margin-top: 1vw;
+            font-weight: 600;
+        }
+
+        .club img {
+            width: 40vw;
+        }
+
+        .club .textholder {
+            width: 40vw;
+        }
+
+        @media screen and (max-width:900px) {
+            .club{
+                margin:10vw 10vw;
+            }
+            .club img{
+                width:70vw;
+                margin:0 auto;
+            }
+            .club .textholder{
+                width:70vw;
+            }
+            .club .textholder{
+                margin-top: 5vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="club">
+        <div class="imgholder">
+            <img src="/images/club.webp" alt="">
+        </div>
+        <div class="textholder">
+            <div class="line" style="width: 4vw;"><hr style=" height: 3px; background-color: blue;"></div>
+            
+            <h1>The Club</h1>
+            <p class="clubtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, quisquam? Repellat
+                molestiae illo
+                ipsam
+                quia autem. Ipsa quae amet iste saepe nemo quo a quisquam eum aperiam! Consequatur, voluptatem
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quibusdam tempore animi eveniet enim
+                consequatur.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

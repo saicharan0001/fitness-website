@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 5vw 7vw;
+        }
+
+        .box {
+            margin-bottom: 4vh;
+            border: 2px solid gainsboro;
+            border-radius: 4px;
+            width: 25vw;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            /* transition: width 0.3s, height 0.3s; */
+            /* height:30vh; */
+        }
+
+        .box:hover {
+            box-shadow: 0 0 2px 1px rgba(226, 231, 232, 0.5);
+        }
+
+        @media screen and (max-width:1000px) {
+            .box {
+                width: 40vw;
+            }
+
+            .container {
+                margin: 6vw;
+            }
+        }
+
+        .pic {
+            text-align: center;
+        }
+
+
+        .container-header {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .container-box-pic-text {
+            margin: 1vh 4vw;
+            font-size: larger;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .crossfit {
+            margin-top: 5vw;
+        }
+
+        .crossfit header {
+            font-size: larger;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: center;
+        }
+        
+        .container a {
+            color: rgb(216, 99, 57);
+            text-decoration: none;
+        }
+
+        .container a:hover {
+            color: orangered;
+        }
+
+        @media screen and (max-width:559px) {
+            .box {
+                width: 80vw;
+            }
+
+            .container {
+                margin: 7vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="crossfit">
+        <header>
+            <h2>Cross Fit Exercises</h2>
+        </header>
+        <div class="container">
+            <div class="box">
+                <div class="pic">
+                    <img src="/images/weightlifting.png" alt="">
+                </div>
+                <div class="container-header">
+                    <h3>weightlifting</h3>
+                </div>
+                <div class="container-box-pic-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam, eos dolorum quis autem
+                    error.
+                    <br><br><br>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="/images/walking Exercise.png" alt="">
+                </div>
+                <div class="container-header">
+                    <h3>Walking Exercises</h3>
+                </div>
+                <div class="container-box-pic-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam, eos dolorum quis autem
+                    error.
+                    <br><br><br>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="/images/belly crunches.png" alt="">
+                </div>
+                <div class="container-header">
+                    <h3>Belly crunches</h3>
+                </div>
+                <div class="container-box-pic-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam, eos dolorum quis autem
+                    error.
+                    <br><br><br>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="/images/weightliftingpartner.png" alt="">
+                </div>
+                <div class="container-header">
+                    <h3>weightlifting Partner</h3>
+                </div>
+                <div class="container-box-pic-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam, eos dolorum quis autem
+                    error.
+                    <br><br><br>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="/images/rolling.png" alt="">
+                </div>
+                <div class="container-header">
+                    <h3>Exercise rolling</h3>
+                </div>
+                <div class="container-box-pic-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam, eos dolorum quis autem
+                    error.
+                    <br><br><br>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic">
+                    <img src="/images/lunge plunk.png" alt="">
+                </div>
+                <div class="container-header">
+                    <h3>Lunge plunk</h3>
+                </div>
+                <div class="container-box-pic-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam, eos dolorum quis autem
+                    error.
+                    <br><br><br>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
